@@ -18,7 +18,8 @@ conda install -c anaconda pycrypto
 
    as given [here](https://anaconda.org/anaconda/pycrypto). In this way pycrypto is installed using conda in windows environment:
     
-    ![image2](https://i.stack.imgur.com/6S8BQ.png)
+   
+   ![image2](https://i.stack.imgur.com/6S8BQ.png)
 
 5. To execute a script using anaconda in windows, first get the current working directory used by conda on your system using:
 
@@ -28,7 +29,7 @@ os.getcwd()
 ```
   This will give the current working directory as shown below:
     
-    ![image4](https://i.stack.imgur.com/xtgXa.png)
+   ![image4](https://i.stack.imgur.com/xtgXa.png)
 
 6. Then come out of python compiler into anaconda command line using:
   
@@ -37,7 +38,7 @@ os.getcwd()
   sys.exit()
   ```
   
-    ![image5](https://i.stack.imgur.com/RASyp.png)
+   ![image5](https://i.stack.imgur.com/RASyp.png)
  
  7. Put your code in current working directory as shown below:
    
