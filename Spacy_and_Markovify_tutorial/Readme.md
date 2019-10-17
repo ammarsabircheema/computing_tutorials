@@ -9,9 +9,9 @@ in particular how to program computers to process and analyze large amounts of n
 - So lets move onto spaCy installation. We will install spaCy using Anaconda. For easily installing python packages on windows install [Anaconda](https://www.anaconda.com/distribution/). Keep in mind that this link is has both 64 bit and 32 bit
 distributions of Anaconda you should choose which suits your system. Here is a very [cool guide](https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/) for installing Anaconda for with recommended options that will be used for this tutorial. 
 
-- After you install Anaconda write Anaconda in the search button of windows and click on Anaconda prompt as shown below:
+- After you install Anaconda, write Anaconda in the search button of windows and click on Anaconda prompt as shown below:
  
-  
+ ![img](images/check1.jpg) 
 
 - Open Anaconda prompt and type: 
 
