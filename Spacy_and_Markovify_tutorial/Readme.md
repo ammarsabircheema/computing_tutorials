@@ -83,27 +83,25 @@ import markovify
 - Import spacy using the code given below:
 
 
-- Now open this file in Visual studio as given below: 
+- Now open this file in Visual studio and compile it using the green option on top right of the compiler as given below: 
 
 ![img](images/104.jpg)
 
+- If there is no error in the output then this means that spaCy and markovify has been installed correctly
 
-Compile this code using the green option on top of the compiler as given below:
-Screen11
+- You can compile all the code in Visual studio code as shown in the above screenshot.
 
-You have to compile all the code as shown in the above screenshot.
-
-Now if you have not got any errors in visual studio while compiling the code then it means that spacy has been imported successfully. 
+## Natural Language Processing with spaCy and Markovify
+ 
 Now we will move further with our tasks related to natural language processing. This tutorial will focus on following aspects of natural language processing:
 
-Tokenization
-Lemmatization
-Stemming
-Partsarts of speech tagging
-Entity Detection
-Dependency Parsing
-Word Vector Representation
-Text Classification
+- Tokenization
+- Lemmatization (Stemming)
+- Parts of speech tagging
+- Entity Detection
+- Dependency Parsing
+- Word Vector Representation
+- Text Classification
 
-Sc2reen10
+
 
