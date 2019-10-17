@@ -15,7 +15,7 @@ After you install Anaconda write Anaconda in the search button of windows and cl
 
  
  
-![img](screen1.PNG)
+![img](image/images/screen1.PNG)
  
 
 
