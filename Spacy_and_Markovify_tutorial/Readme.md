@@ -13,7 +13,7 @@ for installing Anaconda for with recommended options that will be used for this 
 
 After you install Anaconda write Anaconda in the search button of windows and click on Anaconda prompt as shown below:
 
-[!image](https://imgur.com/a/isQxaiq)
+![image](https://imgur.com/a/isQxaiq)
 
 
 Open Anaconda prompt and type 
