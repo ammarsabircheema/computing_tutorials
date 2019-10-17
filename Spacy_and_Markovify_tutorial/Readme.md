@@ -36,12 +36,16 @@ conda install -c conda-forge markovify
 ![img](images/pic1.jpg)
 
 
-If there are no errors during installation and you start watching the conda prompt blinking again then this means that spacy has been installed correctly
-Screen3
+If there are no errors during installation and you start watching the conda prompt blinking again then this means that spaCy and markovify has been installed correctly.
+
 
 ## Working with spaCy
-For ease of useness we will be using visual studio code that comes with Anaconda. Click on Anaconda Navigator as shown below:
-Screen4  
+
+- For ease of useness we will be using visual studio code that comes with Anaconda. Click on Anaconda Navigator as shown below:
+  
+  ![img](images/screen5.jpg)
+
+
 
 Click on Visual studio code and open it as shown below:
 Screen6
