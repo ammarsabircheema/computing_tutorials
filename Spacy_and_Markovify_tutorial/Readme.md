@@ -1,38 +1,45 @@
-# Tutorial for spacy installation
-In this tutorial we are going to show how to install spacy. So first of all what is spaCyy? 
+# Tutorial for spaCy and markovify installation
+- In this tutorial we are going to show how to install spacy. So first of all what is spaCyy? 
 spaCy is an open-source software library for advanced natural language processing, written in the programming languages Python and Cython. For more information about spaCy usage and other features have a look [here](https://spacy.io/usage/spacy-101).
 
-Natural language processing (NLP) is a subfield of linguistics, computer science, information engineering, and 
+- Natural language processing (NLP) is a subfield of linguistics, computer science, information engineering, and 
 artificial intelligence concerned with the interactions between computers and human (natural) languages,
 in particular how to program computers to process and analyze large amounts of natural language data. 
 
-So lets move onto spaCy installation. We will install spaCy using Anaconda. 
-For easily installing python packages on windows install [Anaconda](https://www.anaconda.com/distribution/). Keep in mind that this link is has both 64 bit and 32 bit
-distributions of Anaconda you should choose which suits your system. Here is a very [cool guide](https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/) 
-for installing Anaconda for with recommended options that will be used for this tutorial. 
+- So lets move onto spaCy installation. We will install spaCy using Anaconda. For easily installing python packages on windows install [Anaconda](https://www.anaconda.com/distribution/). Keep in mind that this link is has both 64 bit and 32 bit
+distributions of Anaconda you should choose which suits your system. Here is a very [cool guide](https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/) for installing Anaconda for with recommended options that will be used for this tutorial. 
 
-After you install Anaconda write Anaconda in the search button of windows and click on Anaconda prompt as shown below:
-
+- After you install Anaconda write Anaconda in the search button of windows and click on Anaconda prompt as shown below:
  
- 
-![img](images/screen1.PNG)
- 
+  
 
+- Open Anaconda prompt and type: 
 
-
-Open Anaconda prompt and type 
 
 ```
 conda install -c conda-forge spaCy
 ```
 
-This is shown in screenshot given below as 
-Screen2
+- This is shown in screenshot given below as 
+
+![img](images/screen1.PNG)
+
+
+- For installing Markovify write following code:
+
+```
+conda install -c conda-forge markovify
+```
+
+- This is shown in screenshot given below as 
+
+![img](images/pic1.PNG)
+
 
 If there are no errors during installation and you start watching the conda prompt blinking again then this means that spacy has been installed correctly
 Screen3
 
-# Working with spaCy
+## Working with spaCy
 For ease of useness we will be using visual studio code that comes with Anaconda. Click on Anaconda Navigator as shown below:
 Screen4  
 
