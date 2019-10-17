@@ -85,7 +85,7 @@ import markovify
 
 - Now open this file in Visual studio as given below: 
 
-![img](images/screen12.jpg)
+![img](images/screen104.jpg)
 
 
 Compile this code using the green option on top of the compiler as given below:
