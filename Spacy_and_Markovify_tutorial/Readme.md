@@ -70,16 +70,18 @@ If there are no errors during installation and you start watching the conda prom
 
 
 
-- Create a file in python_code folder named spacy_tutorial 
-
-![img](images/new_real.jpg)
-
-- Import spacy using the code given below:
+- Create a file in python_code folder named spacy_tutorial with code given below
 
 ```
 import spacy
 import markovify
 ```
+- This is shown as below:
+
+![img](images/new_real.jpg)
+
+- Import spacy using the code given below:
+
 
 - Now open this file in Visual studio as given below: 
 
