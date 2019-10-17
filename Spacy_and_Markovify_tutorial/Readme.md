@@ -47,8 +47,10 @@ If there are no errors during installation and you start watching the conda prom
 
 
 
-Click on Visual studio code and open it as shown below:
-Screen6
+- Click on Visual studio code and open it as shown below:
+
+![img](images/screen5.jpg)
+
 
 Now we will work with spaCy in Visual Studio code. For working with python in visual studio code just create a folder titled ***python_code*** on Desktop as shown below
 Screen7
