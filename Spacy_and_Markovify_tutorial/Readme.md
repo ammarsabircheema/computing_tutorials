@@ -52,21 +52,25 @@ If there are no errors during installation and you start watching the conda prom
 ![img](images/screen6.jpg)
 
 
-Now we will work with spaCy in Visual Studio code. For working with python in visual studio code just create a folder titled **python_code** on Desktop as shown below
+- Now we will work with spaCy in Visual Studio code. For working with python in visual studio code just create a folder titled **python_code** on Desktop as shown below
+
 
 ![img](images/screen101.jpg)
 
-Now select this folder in Visual studio as shown below:
-Screen8
+- Now select this folder in Visual studio as shown below:
 
-Create a file in python_code folder named spacy_tutorial and import spacy using the code given below:
+
+![img](images/screen101.jpg)
+
+
+- Create a file in python_code folder named spacy_tutorial and import spacy using the code given below:
 
 ```
 import spacy
 ```
 
 This can be done as shown below
-Screen10
+
 
 Now open this file in Visual studio as given below: 
 Screen11
