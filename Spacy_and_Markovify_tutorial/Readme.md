@@ -15,9 +15,9 @@ After you install Anaconda write Anaconda in the search button of windows and cl
 
  
  
+![img](screen1.PNG)
  
- 
- [Image](https://imgur.com/JE7vrSL)
+
 
 
 Open Anaconda prompt and type 
