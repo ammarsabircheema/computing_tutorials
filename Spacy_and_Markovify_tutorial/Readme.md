@@ -60,20 +60,22 @@ If there are no errors during installation and you start watching the conda prom
 - Now select this folder in Visual studio as shown below:
 
 
-![img](images/screen101.jpg)
+![img](images/screen10.jpg)
 
 
-- Create a file in python_code folder named spacy_tutorial and import spacy using the code given below:
+- Create a file in python_code folder named spacy_tutorial 
+
+![img](images/screen11.jpg)
+
+- Import spacy using the code given below:
 
 ```
 import spacy
 ```
 
-This can be done as shown below
+- Now open this file in Visual studio as given below: 
 
-
-Now open this file in Visual studio as given below: 
-Screen11
+![img](images/screen12.jpg)
 
 
 Compile this code using the green option on top of the compiler as given below:
