@@ -33,7 +33,7 @@ conda install -c conda-forge markovify
 
 - This is shown in screenshot given below as 
 
-![img](images/pic1.PNG)
+![img](images/pic1.jpg)
 
 
 If there are no errors during installation and you start watching the conda prompt blinking again then this means that spacy has been installed correctly
