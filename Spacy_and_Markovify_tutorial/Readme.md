@@ -57,10 +57,17 @@ If there are no errors during installation and you start watching the conda prom
 
 ![img](images/screen101.jpg)
 
-- Now select this folder in Visual studio as shown below:
+
+
+- Choose the option for folder in Visual studio as shown below:
+
+![img](images/screen9.jpg)
+
+- Now open this folder in Visual Studion as shown below:
 
 
 ![img](images/screen10.jpg)
+
 
 
 - Create a file in python_code folder named spacy_tutorial 
