@@ -212,7 +212,58 @@ In linguistic morphology and information retrieval, stemming is the process of r
 
 Part-of-speech tagging (POS tagging or PoS tagging or POST), also called grammatical tagging is the process of marking up a word in a text (corpus) as corresponding to a particular part of speech, based on both its definition and its context—i.e., its relationship with adjacent and related words in a phrase, sentence, or paragraph.
 
+Here is the code for applying parts of speech tagging in python for **gotenberg_data** :
 
+```
+
+import en_core_web_sm
+
+# load en_core_web_sm of English for vocabluary, syntax & entities
+nlp = en_core_web_sm.load()
+
+
+with open('gotenberg.txt', 'r',encoding="utf8") as myfile:
+     data = data="".join(line.rstrip() for line in myfile)
+
+gotenberg_data = re.sub(r'\s+', ' ', data).strip()
+
+
+#  "nlp" Objectis used to create documents with linguistic annotations.
+docs = nlp(gotenberg_data)
+for word in docs:
+    print(word.text,word.pos_)
+```
+
+Add this code to the file **spacy_tutorial** as given below:
+
+
+```
+import spacy,markovify,re
+from spacy.lang.en import English
+import en_core_web_sm
+
+# load en_core_web_sm of English for vocabluary, syntax & entities
+nlp = en_core_web_sm.load()
+
+
+
+with open('gotenberg.txt', 'r',encoding="utf8") as myfile:
+     data = data="".join(line.rstrip() for line in myfile)
+
+gotenberg_data = re.sub(r'\s+', ' ', data).strip()
+
+
+#  "nlp" Objectis used to create documents with linguistic annotations.
+docs = nlp(gotenberg_data)
+for word in docs:
+    print(word.text,word.pos_)
+```
+
+This is shown in screenshot given below as:
+
+![img](images/direct4.jp)
+
+If you get any error like no module 
 ### Entity Detection
 
 Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a subtask of information extraction that seeks to locate and classify named entity mentions in unstructured text into pre-defined categories such as the person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
