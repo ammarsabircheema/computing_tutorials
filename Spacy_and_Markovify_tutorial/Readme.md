@@ -173,14 +173,13 @@ print(token_list) # This will print the word tokenization in the vs output scree
 ```
 
 This is shown in screenshot given below :
-![img](images/screen_direct2.jpg)
+
+![img](images/scree_direct2.jpg)
+
 #### Code for Sentence tokenization
 The code for Sentence tokenization is given below:
 
 ```
-
-
-
 ```
 
 
