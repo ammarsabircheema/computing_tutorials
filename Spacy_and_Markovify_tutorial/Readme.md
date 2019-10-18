@@ -98,11 +98,6 @@ Now we will move further with our tasks related to natural language processing. 
 ### Tokenization
 
 Tokenization is the process of breaking a given character sequence into pieces called tokens, excluding punctuation marks.
-Example
-Here is an example of tokenization:
-
-Input:  Friends, Romans, Countrymen, lend me your ears;
-Output:  Friends Romans Countrymen lend me your ears
 
 ### Lemmatization and Stemming
 
@@ -110,12 +105,23 @@ Lemmatisation (or lemmatization) in linguistics is the process of grouping toget
 
 In linguistic morphology and information retrieval, stemming is the process of reducing inflected (or sometimes derived) words to their word stem, base or root form—generally a written word form. The stem need not be identical to the morphological root of the word; it is usually sufficient that related words map to the same stem, even if this stem is not in itself a valid root.
 
+### Parts of speech tagging
 
-- Parts of speech tagging
-- Entity Detection
-- Dependency Parsing
-- Word Vector Representation
-- Text Classification
+Part-of-speech tagging (POS tagging or PoS tagging or POST), also called grammatical tagging is the process of marking up a word in a text (corpus) as corresponding to a particular part of speech, based on both its definition and its context—i.e., its relationship with adjacent and related words in a phrase, sentence, or paragraph.
+
+
+### Entity Detection
+
+Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a subtask of information extraction that seeks to locate and classify named entity mentions in unstructured text into pre-defined categories such as the person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
+
+### Dependency Parsing
+
+Dependency Parsing is a natural language processing technique that helps us find meaning of a sentence by analyzing the structure of the sentence by through relationships between words.
+
+### Word Vector Representation
+
+A word vector is a numeric representation of a word that commuicates its relationship to other words.
+### Text Classification
 
 
 
