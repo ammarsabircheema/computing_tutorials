@@ -282,6 +282,52 @@ Dependency Parsing is a natural language processing technique that helps us find
 ### Word Vector Representation
 
 A word vector is a numeric representation of a word that commuicates its relationship to other words.
+
+For making vector respresentations of words out of spaCy we can use the code given below:
+
+```
+import en_core_web_sm
+
+# load en_core_web_sm of English for vocabluary, syntax & entities
+nlp = en_core_web_sm.load()
+
+
+
+
+
+#  "nlp" Objectis used to create documents with linguistic annotations.
+docs = nlp(u'Word')
+
+
+print(docs.vector.shape)
+print(docs.vector)
+
+```
+Update spacy_tutorial with this code as given below:
+
+```
+import spacy,markovify,re
+from spacy.lang.en import English
+import en_core_web_sm
+
+# load en_core_web_sm of English for vocabluary, syntax & entities
+nlp = en_core_web_sm.load()
+
+
+
+with open('gotenberg.txt', 'r',encoding="utf8") as myfile:
+     data = data="".join(line.rstrip() for line in myfile)
+
+gotenberg_data = re.sub(r'\s+', ' ', data).strip()
+
+#  "nlp" Objectis used to create documents with linguistic annotations.
+docs = nlp(gotenberg_data)
+
+
+print(docs.vector.shape)
+print(docs.vector)
+```
+
 ### Text Classification
 
 
