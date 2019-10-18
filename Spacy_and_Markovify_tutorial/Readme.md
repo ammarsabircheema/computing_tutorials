@@ -275,6 +275,44 @@ python -m spacy download en
 
 Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a subtask of information extraction that seeks to locate and classify named entity mentions in unstructured text into pre-defined categories such as the person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
 
+Entity detection in python is carried out using the code given below:
+
+```
+from spacy import displacy
+
+nytimes= nlp("The words you want")
+
+entities=[(i, i.label_, i.label) for i in nytimes.ents]
+entities
+```
+
+Update **spacy tutorial** with the code given above as follows:
+
+```
+import spacy,markovify,re
+from spacy.lang.en import English
+import en_core_web_sm
+from spacy import displacy #for visualization of Entity detection importing displacy from spacy
+
+# load en_core_web_sm of English for vocabluary, syntax & entities
+nlp = en_core_web_sm.load()
+
+with open('gotenberg.txt', 'r',encoding="utf8") as myfile:
+     data = data="".join(line.rstrip() for line in myfile)
+
+gotenberg_data = re.sub(r'\s+', ' ', data).strip()
+
+#  "nlp" Objectis used to create documents with linguistic annotations.
+docs= nlp(gotenberg_data)
+
+entities=[(i, i.label_, i.label) for i in docs.ents]
+print(entities)
+```
+This has been shown in screenshot given below as:
+
+![img](images/direct7.jpg)
+
+
 ### Dependency Parsing
 
 Dependency Parsing is a natural language processing technique that helps us find meaning of a sentence by analyzing the structure of the sentence by through relationships between words.
