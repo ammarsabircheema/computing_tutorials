@@ -107,7 +107,7 @@ with open('gotenberg.txt', 'r',encoding="utf8") as myfile:
 data1 = re.sub('\s+', ' ', data).strip()
 ```
 
-Update **spacy_tutorial.py** using code given so the whole code becomes
+Update **spacy_tutorial.py** using code given above so the whole code becomes
 
 ```
 import spacy
@@ -130,21 +130,50 @@ Tokenization is the process of breaking a given character sequence into pieces c
 
 #### Code for Word tokenization
 The code for word tokenization is given below:
+
 ```
 from spacy.lang.en import English
+
 # Load English tokenizer, tagger, parser, NER and word vectors
 nlp = English()
+
+
+my_doc = nlp(gotenberg_data)
+
 token_list = []
 for token in my_doc:
     token_list.append(token.text)
-print(token_list)
+print(token_list) # This will print the word tokenization in the vs output screen.
 ```
+
+Update **spacy_tutorial.py** using code given above so the whole code becomes
 
 
 #### Code for Sentence tokenization
 The code for Sentence tokenization is given below:
 
 ```
+import spacy
+import markovify
+from spacy.lang.en import English
+import re
+
+with open('gotenberg.txt', 'r',encoding="utf8") as myfile:
+     data = data="".join(line.rstrip() for line in myfile)
+
+gotenberg_data = re.sub('\s+', ' ', data).strip()
+
+# Load English tokenizer, tagger, parser, NER and word vectors
+nlp = English()
+
+
+my_doc = nlp(gotenberg_data)
+
+token_list = []
+for token in my_doc:
+    token_list.append(token.text)
+print(token_list) # This will print the word tokenization in the vs output screen.
+
 
 ```
 
