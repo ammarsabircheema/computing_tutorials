@@ -95,8 +95,22 @@ import markovify
  
 Now we will move further with our tasks related to natural language processing. This tutorial will focus on following aspects of natural language processing:
 
-- Tokenization
-- Lemmatization (Stemming)
+### Tokenization
+
+Tokenization is the process of breaking a given character sequence into pieces called tokens, excluding punctuation marks.
+Example
+Here is an example of tokenization:
+
+Input:  Friends, Romans, Countrymen, lend me your ears;
+Output:  Friends Romans Countrymen lend me your ears
+
+### Lemmatization and Stemming
+
+Lemmatisation (or lemmatization) in linguistics is the process of grouping together the inflected forms of a word so they can be analysed as a single item, identified by the word's lemma, or dictionary form.
+
+In linguistic morphology and information retrieval, stemming is the process of reducing inflected (or sometimes derived) words to their word stem, base or root form—generally a written word form. The stem need not be identical to the morphological root of the word; it is usually sufficient that related words map to the same stem, even if this stem is not in itself a valid root.
+
+
 - Parts of speech tagging
 - Entity Detection
 - Dependency Parsing
