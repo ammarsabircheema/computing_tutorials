@@ -180,6 +180,22 @@ This is shown in screenshot given below :
 The code for Sentence tokenization is given below:
 
 ```
+from spacy.lang.en import English
+# Load English tokenizer, tagger, parser, NER and word vectors
+nlp = English()
+sbd = nlp.create_pipe('sentencizer')
+
+# Add the component to the pipeline
+nlp.add_pipe(sbd)
+
+#  "nlp" Object is used to create documents with linguistic annotations.
+doc = nlp(gotenberg_data)
+
+# create list of sentence tokens
+sents_list = []
+for sent in doc.sents:
+    sents_list.append(sent.text)
+print(sents_list)
 ```
 
 
