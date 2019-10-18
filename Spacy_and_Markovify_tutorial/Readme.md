@@ -279,6 +279,48 @@ Named-entity recognition (NER) (also known as entity identification, entity chun
 
 Dependency Parsing is a natural language processing technique that helps us find meaning of a sentence by analyzing the structure of the sentence by through relationships between words.
 
+Code for dependency parsing in python is given below:
+
+```
+docs = nlp (" The words you want")
+
+for chunk in docp.noun_chunks:
+   print(chunk.text, chunk.root.text, chunk.root.dep_,
+          chunk.root.head.text)
+```
+
+Update the file **spacy_tutorial** with code given above as follows:
+
+```
+import spacy,markovify,re
+from spacy.lang.en import English
+import en_core_web_sm
+
+# load en_core_web_sm of English for vocabluary, syntax & entities
+nlp = en_core_web_sm.load()
+
+
+
+with open('gotenberg.txt', 'r',encoding="utf8") as myfile:
+     data = data="".join(line.rstrip() for line in myfile)
+
+gotenberg_data = re.sub(r'\s+', ' ', data).strip()
+
+#  "nlp" Objectis used to create documents with linguistic annotations.
+docs = nlp(gotenberg_data)
+
+
+
+for chunk in docs.noun_chunks:
+   print(chunk.text, chunk.root.text, chunk.root.dep_,
+          chunk.root.head.text)
+```
+
+The screenshot for this has been shared below:
+
+![img](images/direct6.jpg)
+
+
 ### Word Vector Representation
 
 A word vector is a numeric representation of a word that commuicates its relationship to other words.
