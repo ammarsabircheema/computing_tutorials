@@ -263,7 +263,7 @@ This is shown in screenshot given below as:
 
 ![img](images/direct4.jpg)
 
-If you get any error like **No module named 'en_core_web_sm'** then type the code given below in Anaconda prompt as shown [in this screenshot](https://github.com/ammarsabircheema/computing_tutorials/blob/master/Spacy_and_Markovify_tutorial/images/check1.jpg) and [here]()
+If you get any error like **No module named 'en_core_web_sm'** then type the code given below in Anaconda prompt as shown [in this screenshot](https://github.com/ammarsabircheema/computing_tutorials/blob/master/Spacy_and_Markovify_tutorial/images/check1.jpg) and [here](https://github.com/ammarsabircheema/computing_tutorials/blob/master/Spacy_and_Markovify_tutorial/images/screen1.PNG).
 
 ```
 python -m spacy download en
