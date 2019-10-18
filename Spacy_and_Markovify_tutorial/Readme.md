@@ -328,6 +328,10 @@ print(docs.vector.shape)
 print(docs.vector)
 ```
 
+This is shown in screenshot given below:
+
+![img](images/direct5.jpg)
+
 ### Text Classification
 
 
