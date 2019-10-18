@@ -172,7 +172,7 @@ for token in my_doc:
 print(token_list) # This will print the word tokenization in the vs output screen.
 ```
 
-This is shown in screenshot as given below:
+This is shown in screenshot given below :
 ![img](images/screen_direct2.jpg)
 #### Code for Sentence tokenization
 The code for Sentence tokenization is given below:
