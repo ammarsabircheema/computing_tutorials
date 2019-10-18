@@ -117,12 +117,13 @@ import re
 with open('gotenberg.txt', 'r',encoding="utf8") as myfile:
      data = data="".join(line.rstrip() for line in myfile)
 
-data1 = re.sub('\s+', ' ', data).strip()
+data1 = re.sub(r'\s+', ' ', data).strip()
 ```
 
 This is shown in screenshot given below as:
 
 ![img](images/screen_direct.jpg)
+
 
 ### Tokenization
 
@@ -148,10 +149,6 @@ print(token_list) # This will print the word tokenization in the vs output scree
 
 Update **spacy_tutorial.py** using code given above so the whole code becomes
 
-
-#### Code for Sentence tokenization
-The code for Sentence tokenization is given below:
-
 ```
 import spacy
 import markovify
@@ -173,6 +170,15 @@ token_list = []
 for token in my_doc:
     token_list.append(token.text)
 print(token_list) # This will print the word tokenization in the vs output screen.
+```
+
+This is shown in screenshot as given below:
+![img](images/screen_direct2.jpg)
+#### Code for Sentence tokenization
+The code for Sentence tokenization is given below:
+
+```
+
 
 
 ```
