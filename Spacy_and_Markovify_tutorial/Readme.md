@@ -261,7 +261,7 @@ for word in docs:
 
 This is shown in screenshot given below as:
 
-![img](images/direct4.jp)
+![img](images/direct4.jpg)
 
 If you get any error like no module 
 ### Entity Detection
