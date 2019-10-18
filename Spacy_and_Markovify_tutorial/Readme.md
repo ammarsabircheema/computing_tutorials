@@ -263,7 +263,14 @@ This is shown in screenshot given below as:
 
 ![img](images/direct4.jpg)
 
-If you get any error like no module 
+If you get any error like **No module named 'en_core_web_sm'** then type the code given below in Anaconda prompt as shown 
+
+```
+python -m spacy download en
+```
+
+
+
 ### Entity Detection
 
 Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a subtask of information extraction that seeks to locate and classify named entity mentions in unstructured text into pre-defined categories such as the person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
