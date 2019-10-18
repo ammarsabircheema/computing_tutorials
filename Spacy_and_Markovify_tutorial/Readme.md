@@ -93,7 +93,7 @@ import markovify
 
 ## Natural Language Processing with spaCy and Markovify
  
-Now we will move further with our tasks related to natural language processing. This tutorial will focus on following aspects of natural language processing. For this purpose wre will be using the datasets from Gotenberg project which are given [here](http://www.gutenberg.org/files/11/11-0.txt). We will read this file in python using the code given below,
+Now we will move further with our tasks related to natural language processing. This tutorial will focus on following aspects of natural language processing. For this purpose wre will be using the datasets from Gotenberg project which are given [here](http://www.gutenberg.org/files/11/11-0.txt). Copy the data from the link and create a file named **gotenberg.txt** in [this](https://github.com/ammarsabircheema/computing_tutorials/blob/master/Spacy_and_Markovify_tutorial/Readme.md) folder. We will read this file in python using the code given below,
 ```
 # importing regex for removing duplicate whitespaces
 import re 
