@@ -197,6 +197,9 @@ for sent in doc.sents:
     sents_list.append(sent.text)
 print(sents_list)
 ```
+This is shown in screenshot given below:
+![img](images/screen_direct3.jpg)
+
 
 
 ### Lemmatization and Stemming
