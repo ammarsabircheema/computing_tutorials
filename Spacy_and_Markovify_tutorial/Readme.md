@@ -93,11 +93,61 @@ import markovify
 
 ## Natural Language Processing with spaCy and Markovify
  
-Now we will move further with our tasks related to natural language processing. This tutorial will focus on following aspects of natural language processing. For this purpose wre will be using the datasets from Gotenberg project which are given [here](http://www.gutenberg.org/files/11/11-0.txt) :
+Now we will move further with our tasks related to natural language processing. This tutorial will focus on following aspects of natural language processing. For this purpose wre will be using the datasets from Gotenberg project which are given [here](http://www.gutenberg.org/files/11/11-0.txt). We will read this file in python using the code given below,
+```
+# importing regex for removing duplicate whitespaces
+import re 
+
+# Read the file **gotenberg.txt** in python as myfile
+with open('gotenberg.txt', 'r',encoding="utf8") as myfile:
+     data = data="".join(line.rstrip() for line in myfile)
+
+
+# Removing duplicate white spaces from the file
+data1 = re.sub('\s+', ' ', data).strip()
+```
+
+Update **spacy_tutorial.py** using code given so the whole code becomes
+
+```
+import spacy
+import markovify
+import re
+
+with open('gotenberg.txt', 'r',encoding="utf8") as myfile:
+     data = data="".join(line.rstrip() for line in myfile)
+
+data1 = re.sub('\s+', ' ', data).strip()
+```
+
+This is shown in screenshot given below as:
+
+![img](images/screen_direct.jpg)
 
 ### Tokenization
 
-Tokenization is the process of breaking a given character sequence into pieces called tokens, excluding punctuation marks.
+Tokenization is the process of breaking a given character sequence into pieces called tokens. There are two types of tokenization. One is word tokenization and second is sentence tokenization.
+
+#### Code for Word tokenization
+The code for word tokenization is given below:
+```
+from spacy.lang.en import English
+# Load English tokenizer, tagger, parser, NER and word vectors
+nlp = English()
+token_list = []
+for token in my_doc:
+    token_list.append(token.text)
+print(token_list)
+```
+
+
+#### Code for Sentence tokenization
+The code for Sentence tokenization is given below:
+
+```
+
+```
+
 
 ### Lemmatization and Stemming
 
